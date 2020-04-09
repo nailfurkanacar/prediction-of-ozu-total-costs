@@ -26,5 +26,12 @@ public class Main {
 
 			}
 		}
+		System.out.println(
+				"NOTE:" +"\n"
+				+ "Tuition and fees are revised annually for each academic year."+  "\n"
+				+ "Also, in the future  increases in the annual tuition for the"
+				+ " subsequent academic years following the admission are determined based on the inflation rate." +"\n" 
+				+ "These calculations yield average results. Actual prices can be more or less. " + "\n"
+				+ "These informations is taken from the website of Özyeðin University.");
 	}
 }
