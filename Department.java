@@ -11,7 +11,7 @@ public class Department {
 
 	public Department(String name) {
 		this.name = name;
-		this.setInflationRate(12.37); // from TUFE
+		this.setInflationRate(11.84); // from TUFE
 	}
 
 	public double getPrice() {
@@ -65,7 +65,7 @@ public class Department {
 	public double clctoFac(double total) {
 		double tmp = 0;
 		double tmp1 = 0;
-		
+
 		for (int i = 0; i < 4; i++) {
 			tmp1 += this.getPrice();
 			tmp = this.getPrice() * (1 + this.getInflationRate() / 100);

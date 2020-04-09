@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 	public static void main(String[] args) {
+
 		ArrayList<Department> departments = new ArrayList<Department>();
 		departments.add(new AviationMng("Aviation and Management"));
 		departments.add(new Business("Economics"));
@@ -20,7 +21,7 @@ public class Main {
 				System.out.println("\n\n");
 
 			} else if (departments.get(i) instanceof AppliedSciences) {
-				System.out.println("This is a Applied Science Program");
+				System.out.println("This is an Applied Science Program");
 				System.out.println(departments.get(i));
 				System.out.println("\n\n");
 

@@ -6,6 +6,8 @@ public class Flight extends AviandAeroSciences {
 	public Flight(String name) {
 		super(name);
 		this.setFlightLicenseEUR(54000);
+		setPrice(57600);
+		setCalcTotalPrice(clctoFac(getPrice()));
 	}
 
 	public double getFlightLicenseEUR() {
