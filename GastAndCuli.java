@@ -21,6 +21,6 @@ public class GastAndCuli extends AppliedSciences {
 
 	public String toString() {
 		return "Department Name: " + getName() + "\n"  + super.toString() + 
-				" Also, for the knife sets fee is " + this.getPriceofKnifeSet() + " Euro."; 
+				"Also, for the knife sets fee is " + this.getPriceofKnifeSet() + " Euro."; 
 	}
 }
