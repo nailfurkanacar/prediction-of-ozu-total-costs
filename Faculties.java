@@ -10,16 +10,13 @@ public class Faculties extends Department {
 
 	public String toString() {
 		if (this instanceof Flight) {
-			return 	"If you pass the Trace and finish " + getName() + " department in 4 years, you will have paid a total of "
-					+ (getCalcTotalPrice()) + " TL. \n" + "If you finish " + getName()
-					+ " department in 5 years, you will have paid a total of " + (getCalcTotalPrice() + getPREPPRICE())
-					+ " TL.";
+			return 	"In " + getName() + " department, there is no way to apply with scholarship as 25%, 50%.  You can get only 100% scholarship or %0."; 
 
 		} else {
-			return "If you pass the Trace and finish " + getName() + " department in 4 years, you will have paid a total of "
-					+ (getCalcTotalPrice()) + " TL. \n" + "If you finish " + getName()
-					+ " department in 5 years, you will have paid a total of " + (getCalcTotalPrice() + getPREPPRICE())
-					+ " TL.";
+			return "If you pass the Trace and finish " + getName()
+					+ " department in 4 years, you will have paid a total of " + (getCalcTotalPrice()) + " TL. \n"
+					+ "If you finish " + getName() + " department in 5 years, you will have paid a total of "
+					+ (getCalcTotalPrice() + getPREPPRICE()) + " TL.";
 
 		}
 	}

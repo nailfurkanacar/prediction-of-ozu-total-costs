@@ -22,7 +22,7 @@ public class Flight extends AviandAeroSciences {
 				+ " department in 4 years, you will have paid a total of " + getCalcTotalPrice() + "TL and "
 				+ FlightLicenseEUR + "EUR for Flight License Training \n" + "If you finish " + getName()
 				+ " department in 5 years, you will have paid a total of " + (getCalcTotalPrice() + getPREPPRICE())
-				+ "TL and " + FlightLicenseEUR + "EUR for Flight License Training.";
+				+ "TL and " + FlightLicenseEUR + "EUR for Flight License Training." + "\n" + super.toString();
 
 	}
 
