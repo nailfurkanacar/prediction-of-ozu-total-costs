@@ -32,6 +32,6 @@ public class Main {
 				+ "Also, in the future  increases in the annual tuition for the"
 				+ " subsequent academic years following the admission are determined based on the inflation rate." +"\n" 
 				+ "These calculations yield average results. Actual prices can be more or less. " + "\n"
-				+ "These informations is taken from the website of Özyeðin University.");
+				+ "These informations is taken from Özyeðin University website.");
 	}
 }
